@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Programming_Languages/VS-code"
+		},
+		{
+			"path": "../../../VerseTen-Projects/HTML-CSS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML-CSS"
+	}
+}
