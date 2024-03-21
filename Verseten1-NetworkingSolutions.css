@@ -1,0 +1,167 @@
+.LogoName{
+    margin-top: 40px;
+}
+.Image{
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+.ul{
+    list-style: none;
+    background-color: orange;
+  }
+.ul li{
+    display: inline-block;
+    position: relative;
+  }
+.ul li a{
+    display: block;
+    padding: 15px 10px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+.ul li ul.Dropdown li{
+    display: block;
+  }
+.ul li ul.Dropdown{
+    width: 100%;
+    background-color: turquoise;
+    color: chartreuse;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+.ul li a:hover{
+    background-color: orangered;
+  }
+.ul li:hover ul.Dropdown{
+    display: block;
+  }
+
+.Name{
+  text-align: center;
+  padding: 20px;
+}
+.ns1{
+  width: 100%;
+  height: 450px;
+  display: flex;
+  background-color: cornflowerblue;
+}
+.ns11{
+  width: 50%;
+  height: 450px;
+}
+.ns11 img{
+  height: 300px;
+  width: 300px;
+  padding-left: 250px;
+  padding-top: 70px;
+}
+.ns12{
+  width: 50%;
+  height: 450px;
+  padding-top: 80px;
+  padding-left: 60px;
+  font-size: 25px;
+}
+.ns2{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: lightpink;
+}
+.ns21{
+  width: 35%;
+  height: 400px;
+  padding-top: 25px;
+  padding-left: 130px;
+  background-color: 1px solid green;
+}
+.ns22{
+  width: 30%;
+  height: 400px;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+.ns23{
+  width: 35%;
+  float: right;
+  height: 400px;
+  padding-top: 25px;
+}
+.ns2 .ns21 h2, .ns2 .ns22 h2, .ns2 .ns23 h2{
+  font-size: 30px;
+}
+.ns2 .ns21 p, .ns2 .ns22 p, .ns2 .ns23 p{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.ns3{
+  text-align: center;
+  width: 100%;
+  height: 130px;
+  padding-top: 60px;
+  background-color: cornsilk;
+}
+.ns3 h2{
+  font-size: 30px;
+}
+.ns3 p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.ns4{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-color: khaki;
+}
+.ns41{
+  width: 50%;
+  text-align: right;
+  padding-top: 20px;
+}
+.ns42{
+  width: 50%;
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 20px;
+}
+.ns42 h2{
+  font-size: 35px;
+  text-decoration-style: wavy;
+}
+.ns5{
+  width: 100%;
+  height: 120px;
+  padding-top: 20px;
+}
+.ns5 h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border: 5px solid olivedrab;
+  background-color: yellow;
+  border-radius: 45%;
+}
+.Footer{
+    background-color: grey;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Footer h3{
+    text-align: center;
+}
